@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech Banana</title>
+        <link rel="icon" type="image/x-icon" href="https://lh3.googleusercontent.com/ogw/ANLem4Za9EuuzXQvMLtj197-I8Rv3Cu2xoEzKmmsDhr0ZA=s32">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/techbanana/colors.css">
+        <link rel="stylesheet" href="styles/global.css">
+        <link rel="stylesheet" href="styles/techbanana/home.css">
+    </head>
+    <body id="site-container">
+        <main>
+            <div id="head">
+                <span id="logo">
+                    <a href="index.html" class="plainlink"><span>
+                        <img src="https://lh3.googleusercontent.com/ogw/ANLem4Za9EuuzXQvMLtj197-I8Rv3Cu2xoEzKmmsDhr0ZA=s128"> Home - Ethyriel</a>
+                    </span>
+                </span>
+            </div>
+            <div id="content">
+                <div>
+                    <h1>Welcome!</h1>
+                    <p>I'm Weng Hong (or you can call me Ethyriel, whichever you prefer). I'm a tinkerer and have passion in new technologies, and I'm proud to share my works! This page showcases my personal projects that I had worked on, some useful apps or tools I have modified for my own purpose, and more.</p>
+                </div>
+                <div>
+                    <h1>My Projects</h1>
+                    <div>
+                        <div class="container">
+                            <img src="assets/PasskeyDismisser.gif" alt="Passkey Dismisser Application Image" onclick="popupImage(this)">
+                            <div>
+                                <h2>
+                                    <a href="https://github.com/LazyWraith/Passkey-Dismiss-WinHello" class="defaultlink">Windows Hello Passkey Dismisser</a>
+                                </h2>
+                                <div class="tag-container">
+                                    Tags: 
+                                    <span class="tag">QoL Improvements</span>
+                                    <span class="tag">AutoHotKey</span>
+                                </div>
+                                <p>On Windows, you can use Windows Hello facial recognition as authentication method when providing passkeys to apps and websites. However, you will have to manually click "OK" each time after authentication to close the popup window. </p><p>This project uses AutoHotKey to automatically dismiss the passkey prompt for you.</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="assets/percentage.png" alt="Battery Percentage Icon for Windows" onclick="popupImage(this)">
+                            <div>
+                                <h2>
+                                    <a href="https://github.com/LazyWraith/Percentage" class="defaultlink">Battery Percentage Icon for Windows 10/11</a>
+                                </h2>
+                                <div class="tag-container">
+                                    Tags: 
+                                    <span class="tag">QoL Improvements</span>
+                                    <span class="tag">Windows Tools</span>
+                                    <span class="tag">C#</span>
+                                </div>
+                                <p>Tis project is a fork of <a href="https://github.com/soleon/Percentage" class="defaultlink">Soleon's project</a> with some improvements made. This simple application displays battery percentage in taskbar. For devices that do not support showing battery remaining time (HP ProBook and EliteBook etc.), this application also attempts to calculate the remaining time based on power consumption.</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="assets/py-cicflowmeter.png" alt="Python implementation of CICFlowMeter" onclick="popupImage(this)">
+                            <div>
+                                <h2>
+                                    <a href="https://github.com/LazyWraith/py-cicflowmeter-fix" class="defaultlink">Python CICFlowMeter</a>
+                                </h2>
+                                <div class="tag-container">
+                                    Tags: 
+                                    <span class="tag">Python</span>
+                                    <span class="tag">Networking Tools</span>
+                                    <span class="tag">Intrusion Detection Systems</span>
+                                    <span class="tag">Tools</span>
+                                </div>
+                                <p>This is a fork of Python CICFlowMeter used in the Machine Learning-based Intrusion Detection Systems project. This version fixes several issues when converting tcpdump files into flow files (e.g. packet flags incorrectly showing IP layer flags instead of TCP layer flags). Visit the GitHub page for more information.</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="assets/IDS-framework.png" alt="Machine Learning Based IDS" onclick="popupImage(this)">
+                            <div>
+                                <h2>
+                                    <a href="https://github.com/LazyWraith/ML-enabled-IDS" class="defaultlink">Machine Learning Based Intrusion Detection Systems</a>
+                                </h2>
+                                <div class="tag-container">
+                                    Tags: 
+                                    <span class="tag">Python</span>
+                                    <span class="tag">Machine Learning</span>
+                                    <span class="tag">Intrusion Detection Systems</span>
+                                    <span class="tag">Networking Tools</span>
+                                    <span class="tag">Cyber Security</span>
+                                </div>
+                                <p>This project is a proof of concept that implements popular Machine Learning (ML) models trained on network datasets that attempts to detect attacks, intrusions or anomalies within the network. Currently, the project showed limited success in detecting certain cyber-attacks (specifically, <a href="https://github.com/lanjelot/patator" class="defaultlink">Patator</a>). Theoretically, a more advanced dynamic network dataset could hugely improve its performance.</p>
+                                <p>View the paper here: <a href="assets/Development and Implementation of Machine LearningBased Anomaly Detection Systems.pdf" class="defaultlink">Development and Implementation of Machine LearningBased Anomaly Detection Systems.pdf</a></p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="assets/techbanana.png" alt="Techbanana product page" onclick="popupImage(this)">
+                            <div>
+                                <h2>
+                                    <a href="/techbanana.html" class="defaultlink">Techbanana - Mock Shopping Website</a>
+                                </h2>
+                                <div class="tag-container">
+                                    Tags: 
+                                    <span class="tag">Website</span>
+                                    <span class="tag">E-commerce</span>
+                                    <span class="tag">Self-Hosted</span>
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">JS</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">PHP</span>
+                                </div>
+                                <p>Techbanana is a mock e-commerce platform that features a user account system with proper authentication (token-based) system. It has real-world product catalogue, complete with a fully operational cart, advanced search and filter systems, all with mobile layout support!</p>
+                                <p>This project is part of WEB1201 Assignment, where I'm challenged to create a website all from scratch, without any framework (that means only HTML5, PHP, CSS and JavaScript are allowed). Later on, it also inspired me to create the portfolio site you are on right now. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <h1>Other Services I Host</h1>
+                    <div>
+                        <div class="container">
+                            <img src="assets/immich.png" alt="immich home page" onclick="popupImage(this)">
+                            <div>
+                                <h2>
+                                    <a href="https://ethyriel.tplinkdns.com:3822/share/4lSTsAgiPIUrkJJXukgMKyTFAHWdWqIJRBOWJKDyiS-vq-DG-sHYwcTI5XhESHUKfrM" class="defaultlink">Immich</a>
+                                </h2>
+                                <div class="tag-container">
+                                    Tags: 
+                                    <span class="tag">Self-Hosted</span>
+                                    <span class="tag">Server</span>
+                                    <span class="tag">Docker</span>
+                                    <span class="tag">WSL/WSL2</span>
+                                    <span class="tag">Image</span>
+                                    <span class="tag">Video</span>
+                                </div>
+                                <p>I'm a photographer and I shoot photos during events or during trips, so I needed a cheap way to back up all my images while being accessible outside my home network. Immich is a high performance, self-hosted photo and video management system (much like Google Photos). This setup is hosted via Docker (WSL2). Hosting this service taught me about reverse proxy, Docker, Docker Compose, WSL, and more.</p>
+                                <p>This service is hosted for my own use. You can click <a href="https://ethyriel.tplinkdns.com:3822/share/4lSTsAgiPIUrkJJXukgMKyTFAHWdWqIJRBOWJKDyiS-vq-DG-sHYwcTI5XhESHUKfrM" class="defaultlink">here</a> to see some of my works. </p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="assets/batteryhistorian.png" alt="Battery Historian image" onclick="popupImage(this)">
+                            <div>
+                                <h2>
+                                    <a href="https://ethyriel.tplinkdns.com:9090/" class="defaultlink">Battery Historian</a>
+                                </h2>
+                                <div class="tag-container">
+                                    Tags: 
+                                    <span class="tag">Website</span>
+                                    <span class="tag">Android</span>
+                                    <span class="tag">Debugging</span>
+                                    <span class="tag">Self-Hosted</span>
+                                    <span class="tag">Docker</span>
+                                </div>
+                                <p>Battery Historian is a tool to analyze battery consumers using Android "bugreport" files. At the time, I needed this service but no one is hosting a working version (since Google killed it). So, I decided to host it on my own, and you can access it too! This service is also hosted using Docker (WSL2) on Windows.</p>
+                                <p>For detailed usage, please visit <a href="https://developer.android.com/topic/performance/power/setup-battery-historian" class="defaultlink">here</a>. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <small>&copy; Ethyriel Lee 2024. Some Rights Reserved</small>
+        </footer>
+        <script src="scripts/global.js"></script>
+    </body>
+</html>
